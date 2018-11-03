@@ -10,11 +10,11 @@ Rekruter z uprawnieniami administratora może przeglądać i edytować wszystkic
 - Możliwość przechowywania i modyfikowania informacji o kandydatach
 - Możliwość przechowywania plików .pdf z CV kandydatów
 
-####Administrator - uprawnienia
+###Administrator - uprawnienia
 - Administrator może dodawać, przeglądać, aktualizować i usuwać użytkowników.
 - Ma dostęp do wszystkich plików CV
 
-####Kandydat - uprawnienia
+###Kandydat - uprawnienia
 - Kandydat może zarejestrować się w aplikacji. 
 - Kandydat może przeglądać i aktualizować swój profil
 - Kandydat może przeglądać swój plik CV
@@ -22,7 +22,7 @@ Rekruter z uprawnieniami administratora może przeglądać i edytować wszystkic
 ###API
 Wprowadzone restowe API pozwala na odczytywanie listy kandydatów oraz pobieranie informacji o pojedynczym kandydacie. Uwieżytelnianie przeprowadzane jest poprzez api_token.
 
-#####Endpointy:
+###Endpointy:
 - pobranie wszystkich użytkowników: example.com/api/candidates
 - pobranie pojedynczego użytkownika: example.com/api/candidates/{id}
 
